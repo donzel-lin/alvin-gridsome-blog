@@ -83,10 +83,5 @@ export default {
 			return md.render(markdownString);
 		},
 	},
-	computed: {
-		rootUrl() {
-			return 'http://120.46.147.119:1337';
-		},
-	},
 };
 </script>
