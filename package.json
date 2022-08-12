@@ -1,0 +1,17 @@
+{
+  "name": "alvin-clean-blog",
+  "private": true,
+  "scripts": {
+    "build": "gridsome build",
+    "develop": "gridsome develop",
+    "explore": "gridsome explore"
+  },
+  "dependencies": {
+    "@gridsome/source-filesystem": "^0.6.2",
+    "@gridsome/source-strapi": "^0.2.0",
+    "@gridsome/transformer-remark": "^0.6.4",
+    "axios": "^0.27.2",
+    "gridsome": "^0.7.0",
+    "markdown-it": "^13.0.1"
+  }
+}
